@@ -9,7 +9,7 @@ namespace BoxAndLineCrossover
     class Program
     {
         static double a = 0.25;
-        static int Tries = 2;
+        static int Tries = 100;
         static int PopulationNumber = 5;
         static List<int> Cities = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
         static int[,] DistanceBetweenCities = new int[,]
@@ -76,9 +76,8 @@ namespace BoxAndLineCrossover
 
         public static Individual GenerateNewIndividual(Individual parentOne, Individual parentTwo)
         {
-            List<int> cities;
             bool isValidSolution = false;
-            Individual response = new Individual();
+            List<int> cities = new List<int>();
 
             while (!isValidSolution)
             {
@@ -89,9 +88,14 @@ namespace BoxAndLineCrossover
                     cities = new List<int>(); double sln = (parentOne.Cities[i] - a) + u * (parentTwo.Cities[i] - parentOne.Cities[i]);
                     cities.Add((int)sln < 0 ? 0 : (int)sln > 14 ? 14 : (int)sln);
                 }
-                response.Cities = cities;
                 isValidSolution = cities.Distinct().Count() == parentOne.Cities.Count();
             }
+
+            Individual response = new Individual()
+            {
+                Cities = cities,
+                Evaluation = EvaluateSolution(cities)
+            };
 
             return response;
         }
