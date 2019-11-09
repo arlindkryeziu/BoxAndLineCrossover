@@ -1,0 +1,6 @@
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\bin\Debug\BoxAndLineCrossover.exe.config
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\bin\Debug\BoxAndLineCrossover.exe
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\bin\Debug\BoxAndLineCrossover.pdb
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\obj\Debug\BoxAndLineCrossover.csprojResolveAssemblyReference.cache
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\obj\Debug\BoxAndLineCrossover.exe
+E:\Masteri\Viti II\Semestri III\Algoritmet e Inspiruara nga Natyra\L\Detyrat\Detyra2_BoxAndLineCrossoverOperators\BoxAndLineCrossover\BoxAndLineCrossover\obj\Debug\BoxAndLineCrossover.pdb
